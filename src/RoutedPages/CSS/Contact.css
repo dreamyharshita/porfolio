@@ -1,0 +1,45 @@
+.form_card{
+    
+   width: fit-content;
+   height: fit-content;
+   align-items: center;
+   justify-content: center;
+   margin-top: 2rem;
+   margin-left: 35%;
+   background-color: rgb(228, 205, 175);
+   border-radius: 1rem;
+   padding: 3rem;
+}
+
+.form_card form{
+    display: flex;
+    flex-direction: column;
+}
+.form_card label{
+font-family: cursive;
+font-size: x-large;
+font-weight: 700;
+
+}
+.form_card input{
+    border-radius: 0.5rem;
+    height: 2rem;
+    width:20rem;
+    margin-bottom: 2rem;
+}
+.btn_send{
+    background-color: rgb(102, 7, 190);
+    margin-top: 2rem;
+    width: 5rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    color: antiquewhite;
+    font-weight: 600;
+    box-shadow: 0.2rem 0.2rem rgb(147, 123, 170);
+
+}
+@media(max-width:768px){
+    .form_card{
+        margin-left: 25%;
+    }
+}

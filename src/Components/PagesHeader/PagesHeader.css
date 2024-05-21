@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 0.1rem dashed beige;
+}
+  .wrapper  h2{
+        font-size: 3.6rem;
+        font-weight: 700;
+        letter-spacing: 0.15rem;
+        line-height: 1rem;
+        text-transform: capitalize;
+        display: flex;
+        flex-grow: 1;
+        color: beige;
+    }
+
+    
+    

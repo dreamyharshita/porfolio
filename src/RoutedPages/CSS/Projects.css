@@ -1,0 +1,16 @@
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.project{
+    border: 0.3rem solid black;
+    box-shadow: 0.3rem 0.3rem rgb(204, 195, 195);
+    background-color: antiquewhite;
+    padding: 2rem;
+    margin: 2rem;
+    margin-right:4rem ;
+    border-radius: 1rem;
+}

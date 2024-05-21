@@ -1,0 +1,44 @@
+.about{
+    display: flex;
+  
+}
+.about_content{
+    display: flex;
+    flex-direction: row;
+}
+.about_content p{
+    
+    justify-content: center;
+    border: 0.1rem solid black;
+    padding: 2rem;
+    background-color: antiquewhite;
+    font-size: larger;
+    font-weight: 600;
+    color: black;
+    width:50%;
+    margin: 5rem 2rem;
+    margin-bottom: 5rem;
+    border-radius: 3rem;
+    animation: paraEnter 2s ;
+}
+.about_desc{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about_desc span{
+    display: flex;
+    font-size: xx-large;
+    font-weight: 500;
+    margin:2rem;
+    color: rgb(250, 235, 215);
+    padding: 2rem;
+    border-radius: 4rem;
+    border: 0.2rem solid  rgb(28, 10, 44);
+    
+}
+.about_desc span:hover{
+    background-color: rgb(135, 116, 153);
+ 
+}

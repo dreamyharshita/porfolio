@@ -1,0 +1,17 @@
+.skills_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.skills_set{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+.skills_set img{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 4rem;
+}
